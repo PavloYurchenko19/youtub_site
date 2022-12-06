@@ -1,10 +1,19 @@
 import React, { FC } from 'react'
-
+import { Navigate, Route, Routes } from 'react-router'
+import { MainPage } from './Pages'
+import { MainSection } from './Component'
 const App: FC = () => {
   return (
-        <div>
-            <h1>Hello Taras</h1>
-        </div>
+        <>
+            <Routes >
+                <Route path='/' element={<Navigate to='winter'/>}/>
+                <Route path='/' element={<MainPage/>} >
+                    <Route path='winter' element={<MainSection/>}/>
+                    <Route path='summer' element={<MainSection/>}/>
+                </Route>
+
+            </Routes>
+        </>
   )
 }
 

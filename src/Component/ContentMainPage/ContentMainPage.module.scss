@@ -1,0 +1,25 @@
+@import "../../App";
+.content__main {
+  position: absolute;
+  z-index: 1;
+  bottom: 10px;
+  padding: 10px 20px;
+  background: rgba(black,0.2);
+
+  @include df(space-between, center);
+
+
+  .content__bottom {
+    width:70%;
+    font-size: 3rem;
+  }
+
+  .content__subscribe {
+    width: 25%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    @include df(center, center);
+    a{
+    }
+  }
+}

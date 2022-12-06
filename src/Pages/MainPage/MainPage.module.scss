@@ -1,0 +1,11 @@
+@import "../../App";
+.main__container{
+  height: 100vh;
+  header{
+    height: $titleHeight;
+  }
+   [class$='__bg']{
+    height: calc(100vh - #{$titleHeight});
+  }
+
+}

@@ -1,0 +1,13 @@
+section{
+  position: relative;
+  overflow: hidden;
+  height: fit-content;
+  video{
+    aspect-ratio: 16/9;
+    width: 100vw;
+    max-height: 100vh;
+    object-fit: cover;
+
+  }
+
+}

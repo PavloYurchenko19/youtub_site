@@ -1,0 +1,10 @@
+@import "./Scss/Colors.scss";
+@import "./Scss/mixins";
+@import "./Scss/variables";
+root{
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}

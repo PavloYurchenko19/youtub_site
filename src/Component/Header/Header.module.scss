@@ -1,0 +1,27 @@
+@import "../../App";
+header {
+  height: $titleHeight;
+  width: 100%;
+  opacity: 0.8;
+  margin: 0 auto;
+  backdrop-filter: blur(15px);
+  z-index: 1;
+  padding: 0 20px;
+  @include df(space-between, center);
+  position: absolute;
+
+  h1{
+    font-size: 2rem;
+  }
+  &__container-img {
+    height: 100%;
+  }
+
+  nav {
+    @include df(center, center);
+    gap: 20px;
+    p:hover{
+      cursor: pointer;
+    }
+  }
+}

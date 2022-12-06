@@ -1,0 +1,5 @@
+export { MainSection } from './MainSection/MainSection'
+export { Season } from './Season/Season'
+export { Header } from './Header/Header'
+export { ContentMainPage } from './ContentMainPage/ContentMainPage'
+export { Main } from './Main/Main'
