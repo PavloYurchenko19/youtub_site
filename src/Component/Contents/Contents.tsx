@@ -1,26 +1,21 @@
 import React, { FC, useState } from 'react'
+import { motion } from 'framer-motion'
+
 // src
 import styles from './Contents.module.scss'
 import { Headings } from './Headings'
 import { useHeadingsData, useIntersectionObserver } from '../../Helper'
-import { motion } from 'framer-motion'
+import { headingsAnimation } from '../../Animation'
 const Contents: FC = () => {
-  const [activeId, setActiveId] = useState()
+  const [activeId, setActiveId] = useState<string>('')
   useIntersectionObserver(setActiveId)
   const { nestedHeadings } = useHeadingsData()
 
   return (
         <motion.nav className={styles['nav__content']} aria-label="Table of contents"
-                    initial={{
-                      opacity: 0
-                    }}
-           whileInView={{
-             opacity: 1,
-             boxShadow: '0 0 10px black',
-             transition: {
-               duration: 1
-             }
-           }}
+                    variants={headingsAnimation}
+                    initial={'offscreen'}
+                    whileInView={'onscreen'}
 
         >
             <Headings headings={nestedHeadings} activeId={activeId}/>

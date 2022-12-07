@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { HeadingInterface } from '../../Interface/HeadingInterface/HeadingInterface'
 import styles from './Contents.module.scss'
-const Headings: FC<{ headings: HeadingInterface[], activeId: any }> = ({ headings, activeId }) => {
+const Headings: FC<{ headings: HeadingInterface[], activeId: string }> = ({ headings, activeId }) => {
   return (
       <ul>
           {headings?.map((heading) => {

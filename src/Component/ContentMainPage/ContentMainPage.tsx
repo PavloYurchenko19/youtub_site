@@ -15,7 +15,7 @@ const ContentMainPage: FC = () => {
             }}
             className={style['content__main']}>
             <div className={style.content__bottom}>
-                <h2 id={'lorem'}>Дізнавайтесь багато чого нового з статей</h2>
+                <h2 id='Дізнавайтесь багато чого нового з статей'>Дізнавайтесь багато чого нового з статей</h2>
             </div>
             <div className={style['content__subscribe']}>
                 <div>

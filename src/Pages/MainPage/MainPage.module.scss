@@ -5,32 +5,30 @@
   header{
     height: $titleHeight;
   }
-   [class$='__bg']{
-    height: calc(100vh - #{$titleHeight});
+  video{
+    position: relative;
   }
+  .welcome h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    @include df(center,center,column);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    color: #e0ffff;
+    background: #22232e;
+    mix-blend-mode: multiply;
+    animation-name: Welcome;
+    animation-duration: 5s;
+    z-index: 2;
 
+  }
 }
-.welcome h1{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 4rem;
-  color: #e0ffff;
-  background: #22232e;
-  mix-blend-mode: multiply;
-  animation-name: Welcome;
-  animation-duration: 5s;
-  z-index: 55;
 
-}
+
 @keyframes Welcome {
   0%{
     opacity: 1;

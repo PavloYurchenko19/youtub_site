@@ -13,7 +13,6 @@ import { Contents } from '../Contents/Contents'
 const Season: FC<{ season: string }> = ({ season }) => {
   return (
         <div className={`${season}__bg` }>
-
             <section>
                 <Video season={season}/>
                 <ContentMainPage/>
@@ -22,7 +21,7 @@ const Season: FC<{ season: string }> = ({ season }) => {
                 <main className={styles['main__wraper']}>
                     <Main/>
                 </main>
-                <Contents />
+                <Contents/>
             </div>
         </div>
   )
