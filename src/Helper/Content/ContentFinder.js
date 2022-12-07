@@ -34,7 +34,6 @@ export const useHeadingsData = () => {
 
 export const useIntersectionObserver = (setActiveId) => {
   const headingElementsRef = useRef({})
-  console.log(setActiveId)
   useEffect(() => {
     const callback = (headings) => {
       headingElementsRef.current = headings.reduce((map, headingElement) => {

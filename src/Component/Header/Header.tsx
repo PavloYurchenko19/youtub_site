@@ -11,6 +11,7 @@ const Header: FC = () => {
   //   hidden: { opacity: 0 },
   //   show: { opacity: 1 }
   // }
+
   return (
 
         <motion.header
@@ -36,7 +37,17 @@ const Header: FC = () => {
             <h3>
                 Autumn
             </h3>
-            <h1>Секрети Виноградарства і Садівництва</h1>
+            <h1>
+
+            {'Секрети Виноградарства і Садівництва'.split('').map((letter, index) => {
+              return (
+                    <motion.span key={index}>
+                        {letter}
+                    </motion.span>
+              )
+            })}
+            </h1>
+
             <h3>
                 Spring
             </h3>

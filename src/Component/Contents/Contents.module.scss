@@ -7,16 +7,30 @@
   max-height: calc(100vh - 40px);
   overflow: auto;
   width: 20%;
+  //box-shadow: 0 0  10px black;
+  margin: 20px;
+  border-radius: 10px;
+
+
 }
+
+
 a {
   color: grey;
   text-decoration: none;
 }
 
 li.active > a {
-  color: yellow;
+  color: blue;
 }
 
 li > a:hover {
   color: black;
+}
+
+li {
+  list-style-type: '❄';
+  color: blue;
+  padding: 10px;
+  line-height: 20px;
 }
