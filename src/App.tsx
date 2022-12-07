@@ -9,6 +9,7 @@ const App: FC = () => {
                 <Route path='/' element={<Navigate to='winter'/>}/>
                 <Route path='/' element={<MainPage/>} >
                     <Route path='winter' element={<MainSection/>}/>
+
                     <Route path='summer' element={<MainSection/>}/>
                 </Route>
 
