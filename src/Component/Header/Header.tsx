@@ -14,8 +14,8 @@ const Header: FC = () => {
   return (
 
         <motion.header
-            initial={{ translateX: '-100vw' }}
-            animate={{ translateX: 0 }}
+            initial={{ translateY: -100 }}
+            animate={{ translateY: 0 }}
             transition={{
               type: 'easeIn',
               delay: welcomeAnimation - 1,
