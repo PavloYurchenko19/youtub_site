@@ -29,6 +29,7 @@ const Header: FC = () => {
                 }
                 }
                 className={'header__container-img'}>
+
                 <img src='/logo.svg' alt="Logo"/>
             </motion.div>
 
