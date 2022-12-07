@@ -28,6 +28,7 @@ const Header: FC = () => {
                   setOpen(!open)
                 }
                 }
+
                 className={'header__container-img'}>
 
                 <img src='/logo.svg' alt="Logo"/>
