@@ -3,13 +3,14 @@ export interface MainContentInterface {
   title: string
   description: string
   img: Img
-  subTitle: SubTitle[] | null
+  grapes: Grapes[] | null
 }
 export interface Img {
   url: string
   name: string
 }
-export interface SubTitle {
-  title: string
-  description: string
+export interface Grapes {
+  id: number
+  name: string
+  img: Img
 }

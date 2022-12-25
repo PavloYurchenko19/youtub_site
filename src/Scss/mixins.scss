@@ -4,3 +4,10 @@
   align-items: $contentItems;
   flex-direction: $dir;
 }
+
+@mixin more-text ($line){
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

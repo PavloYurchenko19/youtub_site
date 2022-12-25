@@ -11,3 +11,14 @@ export const headingsAnimation = {
     }
   }
 }
+
+export const levitationContent = {
+  offscreen: {
+  },
+  onscreen: {
+    boxShadow: '0 0 10px inset',
+    transition: {
+      duration: 5
+    }
+  }
+}

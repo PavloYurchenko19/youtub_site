@@ -3,205 +3,183 @@ import { MainContentInterface } from '../../Interface/Main/MainContentInterface'
 export const contentsMain: MainContentInterface[] = [
   {
     id: 1,
-    title: 'На цьому сайті ви дізнаєтесь про 1',
-    description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                ',
+    title: 'Виноградарство',
+    description: 'Виноградарством в Україні займаються вже тисячі років. Останнім часом виведено багато  перспективних ' +
+        'столових і технічних сортів, що повністю підходять для клімату холодніших регіонів.',
     img: {
-      url: '',
-      name: ''
+      url: '/photo1.jpg',
+      name: 'photo1'
     },
-    subTitle: [{
-      title: 'На цьому сайті ви дізнаєтесь про 1.1',
-      description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-          '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-          '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-          '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-          '                '
-    }]
-
+    grapes: [
+      {
+        id: 1,
+        name: 'Столовий виноград',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 2,
+        name: 'Обрізка винограду',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 3,
+        name: 'Захист від хвороб',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 4,
+        name: 'Винний виноград',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 5,
+        name: 'Винний виноград',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 6,
+        name: 'Винний виноград',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      }
+    ]
   },
   {
     id: 2,
-    title: 'На цьому сайті ви дізнаєтесь про 2',
-    description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                ',
+    title: 'Виноградарство',
+    description: 'Виноградарством в Україні займаються вже тисячі років. Останнім часом виведено багато  перспективних ' +
+        'столових і технічних сортів, що повністю підходять для клімату холодніших регіонів.',
     img: {
-      url: '',
-      name: ''
+      url: '/photo1.jpg',
+      name: 'photo1'
     },
-    subTitle: null
-
+    grapes: [
+      {
+        id: 1,
+        name: 'Столовий виноград',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 2,
+        name: 'Обрізка винограду',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 3,
+        name: 'Захист від хвороб',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 4,
+        name: 'Винний виноград',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 5,
+        name: 'Винний виноград',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 6,
+        name: 'Винний виноград',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      }
+    ]
   },
   {
     id: 3,
-    title: 'На цьому сайті ви дізнаєтесь про 3',
-    description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                ',
+    title: 'Виноградарство',
+    description: 'Виноградарством в Україні займаються вже тисячі років. Останнім часом виведено багато  перспективних ' +
+        'столових і технічних сортів, що повністю підходять для клімату холодніших регіонів.',
     img: {
-      url: '',
-      name: ''
+      url: '/photo1.jpg',
+      name: 'photo1'
     },
-    subTitle: null
-
-  },
-  {
-    id: 4,
-    title: 'На цьому сайті ви дізнаєтесь про 4',
-    description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                ',
-    img: {
-      url: '',
-      name: ''
-    },
-    subTitle: null
-
-  },
-  {
-    id: 5,
-    title: 'На цьому сайті ви дізнаєтесь про 5',
-    description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                ',
-    img: {
-      url: '',
-      name: ''
-    },
-    subTitle: null
-
-  },
-  {
-    id: 6,
-    title: 'На цьому сайті ви дізнаєтесь про 6',
-    description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                ',
-    img: {
-      url: '',
-      name: ''
-    },
-    subTitle: null
-
-  },
-  {
-    id: 7,
-    title: 'На цьому сайті ви дізнаєтесь про 7',
-    description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                ',
-    img: {
-      url: '',
-      name: ''
-    },
-    subTitle: [{
-      title: 'На цьому сайті ви дізнаєтесь про 7.1',
-      description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-          '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-          '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-          '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-          '                '
-    },
-    {
-      title: 'На цьому сайті ви дізнаєтесь про 7.2',
-      description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                '
-    },
-    {
-      title: 'На цьому сайті ви дізнаєтесь про 7.3',
-      description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                '
-    },
-    {
-      title: 'На цьому сайті ви дізнаєтесь про 7.4',
-      description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                '
-    }]
-
-  },
-  {
-    id: 8,
-    title: 'На цьому сайті ви дізнаєтесь про  8',
-    description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                ',
-    img: {
-      url: '',
-      name: ''
-    },
-    subTitle: null
-
-  },
-  {
-    id: 9,
-    title: 'На цьому сайті ви дізнаєтесь про 9',
-    description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                ',
-    img: {
-      url: '',
-      name: ''
-    },
-    subTitle: null
-
-  },
-  {
-    id: 10,
-    title: 'На цьому сайті ви дізнаєтесь про 10',
-    description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                ',
-    img: {
-      url: '',
-      name: ''
-    },
-    subTitle: [{
-      title: 'На цьому сайті ви дізнаєтесь про 10.1',
-      description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-          '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-          '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-          '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-          '                '
-    },
-    {
-      title: 'На цьому сайті ви дізнаєтесь про 10.2',
-      description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aut beatae dolor dolore dolores ducimus earum eligendi eveniet expedita fugiat illo impedit inventore iure molestiae nam natus necessitatibus neque nesciunt nisi nostrum nulla officia pariatur possimus provident quam quibusdam quidem quisquam reiciendis, repellat sapiente sint sunt ullam unde ut voluptate voluptatibus. Ad et expedita numquam optio perspiciatis repellat. A assumenda cupiditate excepturi facere hic iusto laboriosam laborum maxime molestias quos, soluta voluptatibus. Adipisci aliquid amet architecto, asperiores assumenda atque consectetur corporis dignissimos dolor dolores error excepturi fugiat ipsam molestiae mollitia numquam rem, repellat sequi suscipit tenetur. Consequatur, ipsum, odit?\n' +
-            '                '
-    }]
-
+    grapes: [
+      {
+        id: 1,
+        name: 'Столовий виноград',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 2,
+        name: 'Обрізка винограду',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 3,
+        name: 'Захист від хвороб',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 4,
+        name: 'Винний виноград',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 5,
+        name: 'Винний виноград',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      },
+      {
+        id: 6,
+        name: 'Винний виноград',
+        img: {
+          url: '/photo1.jpg',
+          name: 'photo1'
+        }
+      }
+    ]
   }
+
 ]

@@ -1,10 +1,10 @@
 @import "../../App";
 
 .main__container {
-  @include df(none, none);
+  @include df(center, none);
 
   .main__wraper {
     width: 80%;
-    @include df(none, none)
+    @include df(center, center);
   }
 }
