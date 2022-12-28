@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 // src
 
 import './Header.module.scss'
+import { Link } from 'react-router-dom'
 const Header: FC = () => {
   const [open, setOpen] = useState(true)
   const welcomeAnimation = 3
@@ -37,16 +38,10 @@ const Header: FC = () => {
             <h3>
                 Autumn
             </h3>
-            <h1>
+            <Link to={'home'}>
 
-            {'Секрети Виноградарства і Садівництва'.split('').map((letter, index) => {
-              return (
-                    <motion.span key={index}>
-                        {letter}
-                    </motion.span>
-              )
-            })}
-            </h1>
+                <h1>Секрети Виноградарства і Садівництва</h1>
+            </Link>
 
             <h3>
                 Spring

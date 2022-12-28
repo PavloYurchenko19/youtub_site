@@ -11,3 +11,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+@mixin title {
+  text-align: center;
+  padding: 20px;
+}

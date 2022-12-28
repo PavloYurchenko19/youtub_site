@@ -1,0 +1,177 @@
+@import "src/App";
+
+.main__container {
+
+
+  .welcome__container {
+    @include df(center, center);
+    height: 90vh;
+
+    h1 {
+      z-index: 1;
+    }
+
+    .container__left_bg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 90vh;
+    }
+
+    & img {
+      width: 100%;
+    }
+
+  }
+
+  .second__section {
+    background: #f2f4f5;
+
+  }
+
+  section {
+    padding: 40px;
+
+    .about {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      @include df(center, center, column);
+
+      .about__desc_container {
+        @include df(space-around, center);
+        margin-top: 40px;
+
+        .about__left_side {
+          width: 40%;
+
+          & .about__container:nth-child(1n + 2 ) {
+            margin-top: 20px;
+          }
+
+          .about__container {
+
+            @include df(center, center);
+            gap: 30px;
+            line-height: 25px;
+
+            .about__icon {
+              width: 60px;
+
+              img {
+                width: 100%;
+              }
+            }
+
+          }
+        }
+
+        .about__right_side {
+          width: 40%;
+
+          .video {
+            border-radius: 20px;
+            overflow: hidden;
+            height: 300px;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+
+  }
+
+  .aboutSeason__section {
+    .aboutSeason {
+      &__contents_container {
+        h2 {
+          @include title;
+
+        }
+
+        .content__container {
+          position: relative;
+          @include df(space-between, center);
+
+          h3 {
+            @include title;
+          }
+
+          &_img {
+            width: 49%;
+
+            img {
+              border-radius: 20px;
+              width: 100%;
+            }
+
+          }
+
+          svg {
+            position: absolute;
+            top: 20px;
+            right:  calc(45% - 350px);
+          }
+
+        }
+
+        & .content__container:nth-child(odd) {
+          flex-direction: row-reverse;
+          position: relative;
+
+          svg {
+            top: 20px;
+            left: calc(45% - 350px);
+          }
+        }
+      }
+    }
+  }
+
+  .harvest__section {
+    margin-top: 40px;
+  .harvest{
+    padding-bottom: 40px;
+    .harvest__main-container{
+      gap: 10px;
+      @include df(center, center);
+      flex-wrap: wrap;
+
+      .harvest__section_img{
+        width: 24%;
+        height: 200px;
+        img{
+          border-radius: 20px;
+          //aspect-ratio: 320/160;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+    h2 {
+      @include title;
+    }
+  }
+
+  .aboutMe__section{
+    h2{
+      @include title;
+    }
+    .aboutMe{
+      background-size: cover;
+      height: 600px;
+      .aboutMe__left-side{
+        h3{
+          @include title
+        }
+        text-align: justify;
+        width: 40%;
+
+        p{
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+}
