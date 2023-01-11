@@ -10,6 +10,8 @@ export const VideoFromSeason: FC<{ season: string }> = ({ season }): any => {
       return <source src="/winter.mp4" type='video/mp4'/>
     case 'summer':
       return <source src="/winter.mp4" type='video/mp4'/>
+    case 'homePage':
+      return <source src="/Banner.mp4" type='video/mp4'/>
       // eslint-disable-next-line no-unreachable
       break
   }

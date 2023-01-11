@@ -1,17 +1,13 @@
 import React, { FC, useState } from 'react'
 import { motion } from 'framer-motion'
+import { Email } from '@mui/icons-material'
 // src
 
-import './Header.module.scss'
+import styles from './Header.module.scss'
 import { Link } from 'react-router-dom'
 const Header: FC = () => {
   const [open, setOpen] = useState(true)
   const welcomeAnimation = 3
-
-  // const item = {
-  //   hidden: { opacity: 0 },
-  //   show: { opacity: 1 }
-  // }
 
   return (
 
@@ -24,36 +20,40 @@ const Header: FC = () => {
               duration: 2
             }}
         >
-
+            <div className={styles['header__container_up-side']} >
+                <p>
+                    <Email width={25}/> tarasLviv1999@gmail.com
+                </p>
+                <div className={styles['container_up-side__right-side']}>
+                    <nav>Мова</nav>
+                    <nav>Вхід</nav>
+                    <nav>Кошик</nav>
+                </div>
+            </div>
+            <div className={styles['header__container_down-side']}>
             <motion.div
                 onClick={() => {
                   setOpen(!open)
                 }
                 }
-                className={'header__container-img'}>
+                className={styles['header__container-img']}>
 
                 <img src='/logo.svg' alt="Logo"/>
             </motion.div>
 
-            <h3>
-                Autumn
-            </h3>
             <Link to={'home'}>
 
-                <h1>Секрети Виноградарства і Садівництва</h1>
+                {/* <h1>Секрети Виноградарства і Садівництва</h1> */}
             </Link>
+                <div className={styles['container_down-side__right-side']}>
+                    <nav>Галерея</nav>
+                    <nav>Сторінки</nav>
+                    <nav>Послуги</nav>
+                    <nav>Магазин</nav>
+                    <nav>Про нас</nav>
+                </div>
+            </div>
 
-            <h3>
-                Spring
-            </h3>
-            <nav>
-                <p>
-                    Policy pravicy
-                </p>
-                <p>
-                    About us
-                </p>
-            </nav>
         </motion.header>
   )
 }

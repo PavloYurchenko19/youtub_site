@@ -1,16 +1,50 @@
 @import "../../App";
 header {
-  height: $titleHeight;
+  height: auto;
   width: 100%;
   opacity: 0.8;
   margin: 0 auto;
-  backdrop-filter: blur(15px);
-  z-index: 1;
-  padding: 0 20px;
-  @include df(space-between, center);
+  @include df(start, start,column);
+
   position: fixed;
+//my styles
+  //backdrop-filter: blur(15px);
+
+  //Taras
+  background-color: rgba(black, .8);
+  color: white;
+  z-index: 7;
 
 
+  .header__container_down-side{
+    @include df(space-between, center);
+    width: 100%;
+    border-top: 2px solid yellow;
+    padding: 0 20px;
+
+  .container_down-side__right-side {
+    @include df(start, center);
+    gap: 50px;
+    font-size: 30px;
+  }
+
+  }
+  .header__container_up-side{
+    font-size: 25px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    @include df(space-between, center);
+    p {
+      @include df(center, center);
+    gap: 20px;
+
+    }
+    .container_up-side__right-side {
+      @include df(start, center);
+      gap: 40px;
+    }
+  }
   h1{
     font-size: 2rem;
   }

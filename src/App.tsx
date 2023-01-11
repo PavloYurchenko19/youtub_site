@@ -10,7 +10,6 @@ const App: FC = () => {
                 <Route path='/' element={<Navigate to='home'/>}/>
                 <Route path='/' element={<MainPage/>} >
                     <Route path='winter' element={<MainSection/>}/>
-
                     <Route path='summer' element={<MainSection/>}/>
                     <Route path='home' element={<HomePage/>}/>
                 </Route>
